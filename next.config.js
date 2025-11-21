@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "standalone",
-  serverExternalPackages: [], // ensures standalone works with turbopack
+  serverExternalPackages: [],
   experimental: {
-    optimizePackageImports: ["react", "react-dom"],
+    optimizePackageImports: ["react", "react-dom"]
   },
 };
 
